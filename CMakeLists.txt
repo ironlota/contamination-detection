@@ -46,7 +46,7 @@ set(SOURCES
 set(LIBRARY_NAME engine)
 
 # Compile all sources into a library.
-add_library(${LIBRARY_NAME} OBJECT
+add_library(${LIBRARY_NAME} STATIC
   ${SOURCES})
 
 target_include_directories(${LIBRARY_NAME} PUBLIC
