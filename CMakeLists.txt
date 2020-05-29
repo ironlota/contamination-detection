@@ -67,8 +67,8 @@ target_link_libraries(main PRIVATE
   ${LIBRARY_NAME}
   ${OpenCV_LIBS}
   ${GTKMM_LIBRARIES}
-  ${CMAKE_THREAD_LIBS_INIT}
-  spdlog)
+  ${CMAKE_THREAD_LIBS_INIT})
+  # spdlog)
 
 # Precompiled Headers
 # cotire(main)
