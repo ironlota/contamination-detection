@@ -32,7 +32,7 @@ include(Warnings)
 find_package(OpenCV REQUIRED)
 find_package(PkgConfig REQUIRED)
 find_package(Threads REQUIRED)
-include(Boost)
+# include(Boost)
 include(Gtkmm)
 
 find_lto(CXX)
