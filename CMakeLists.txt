@@ -56,9 +56,9 @@ target_include_directories(${LIBRARY_NAME} PUBLIC
 target_link_libraries(${LIBRARY_NAME} PUBLIC
   ${OpenCV_LIBS}
   ${GTKMM_LIBRARIES}
-  ${CMAKE_THREAD_LIBS_INIT}
+  ${CMAKE_THREAD_LIBS_INIT})
   # doctest
-  spdlog)
+  # spdlog)
 
 # Add an executable for the file app/main.cpp.
 add_executable(main app/main.cpp)
